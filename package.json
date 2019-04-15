@@ -1,7 +1,7 @@
 {
-  "name": "library-ts-boilerplate",
+  "name": "lcURLValidator",
   "version": "1.0.0",
-  "description": "NPM Library boilerplate with TS",
+  "description": "NPM URL validator",
   "keywords": [
     "lc-form-validation",
     "form",
@@ -10,14 +10,14 @@
     "react",
     "component"
   ],
-  "homepage": "https://github.com/Lemoncode/lc-validator-dni#readme",
+  "homepage": "https://github.com/calbzam/lc-URLValidator#readme",
   "bugs": {
-    "url": "https://github.com/Lemoncode/lc-validator-dni/issues"
+    "url": "https://github.com/calbzam/lc-URLValidator/issues"
   },
   "license": "MIT",
-  "author": "Lemoncode",
+  "author": "calbzam",
   "contributors": [
-    "Javier Calzado <javi.calzado@lemoncode.net> (https://github.com/fjcalzado)"
+    "Carlos Alba <albazamanillo@gmail.com> (https://github.com/calbzam)"
   ],
   "files": [
     "dist",
@@ -35,7 +35,7 @@
   "jsnext:main": "es/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lemoncode/lc-validator-dni.git"
+    "url": "git+https://github.com/calbzam/lcURLValidator.git"
   },
   "scripts": {
     "clean": "rimraf build",
