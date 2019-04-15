@@ -1,1 +1,1 @@
-export { myFunction } from './sample';
+export { validateURL, VALIDATION_TYPE } from './url';
