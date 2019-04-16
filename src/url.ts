@@ -5,8 +5,8 @@ export const VALIDATION_TYPE = 'URL'
 
 const iSValidURL = (input: string): boolean => checkURL(input) === true
 
-//Used regex from: https://gist.github.com/dperini/729294
-function checkURL(str) {
+// Used regex from: https://gist.github.com/dperini/729294
+function checkURL(str: string) {
   const pattern = new RegExp(
     '^' +
       // protocol identifier (optional)
