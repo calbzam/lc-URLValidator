@@ -3,10 +3,10 @@ import { FieldValidationResult } from 'lc-form-validation'
 const defaultInvalidMessage = 'Invalid URL'
 export const VALIDATION_TYPE = 'URL'
 
-const iSValidURL = (input: string): boolean => checkURL(input) === true
+const iSValidURL = (input: any): boolean => checkURL(input) === true
 
 // Used regex from: https://gist.github.com/dperini/729294
-function checkURL(str: string) {
+function checkURL(input: any) {
   const pattern = new RegExp(
     '^' +
       // protocol identifier (optional)
@@ -49,7 +49,7 @@ function checkURL(str: string) {
       '$',
     'i'
   )
-  return !!pattern.test(str)
+  return !!pattern.test(input)
 }
 
 export const validateURL = (value: any): FieldValidationResult => {
